@@ -346,7 +346,13 @@ transition: .3s ease letter-spacing;
 /*---End projects section--*/
 
 /*---Contact Section---*/
-
+#contact{
+    background-image: url(./images/photo-1518655048521-f130df041f66.avif);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
 #contact {
     background-color: white;
     padding: 1px 0;
