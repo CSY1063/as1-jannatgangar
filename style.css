@@ -269,10 +269,7 @@ transition: .3s ease letter-spacing;
     background-position: top center;
     position: relative;
     z-index: 1;
-
 }
-
-
 #projects .projects{
     flex-direction: column;
     text-align: center;
