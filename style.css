@@ -459,7 +459,7 @@ transition: .3s ease letter-spacing;
     position: relative;
     z-index: 1;
 }
-#report .report{
+#report .report {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
@@ -469,7 +469,7 @@ transition: .3s ease letter-spacing;
 #report .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: rgb(3, 3, 57);
+    color: black;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -478,7 +478,7 @@ transition: .3s ease letter-spacing;
 #report .section-title {
     color: navy;
 }
-#report.report-top p{
+#report.report-top p {
     color: black;
     font-size: 1.4rem;
     margin-top: 5px;
@@ -493,7 +493,7 @@ transition: .3s ease letter-spacing;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-#report .report-item{
+#report .report-item {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -508,7 +508,7 @@ transition: .3s ease letter-spacing;
     z-index: 1;
     overflow: hidden;
 }
-#report .report-item::after{
+#report .report-item::after {
     content: '';
     position: absolute;
     left: 0;
@@ -519,18 +519,24 @@ transition: .3s ease letter-spacing;
     opacity: .8;
     z-index: -1;
 }
-#report .report-item h2{
+#report .report-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 
 }
-#report .report-item p{
+#report .report-item p {
     color: white;
     text-align: left;
     font-size: 1.4rem;
     line-height: 1.9rem;
+}
+#report .report-item p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 /*report section end*/
 
