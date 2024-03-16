@@ -369,7 +369,7 @@ transition: .3s ease letter-spacing;
     align-items: center;
 }
 
-#contact .content h3 {
+#contact .section-title h3 {
         font-size: 3rem;
         font-weight: 300;
         color: black;
@@ -379,7 +379,7 @@ transition: .3s ease letter-spacing;
         text-align: center;
 }
 
-#contact .content h1 {
+#contact .section-title h1 {
     font-size: 4rem;
     color: navy;
     margin-bottom: 20px;
