@@ -466,7 +466,7 @@ transition: .3s ease letter-spacing;
     margin: 0 auto;
     padding: 100px 0;
 }
-#report .section-title h4 {
+#report .section-title {
     font-size: 4rem;
     font-weight: 300;
     color: rgb(3, 3, 57);
@@ -475,7 +475,7 @@ transition: .3s ease letter-spacing;
     letter-spacing: .2rem;
     text-align: center;
 }
-#report .section-title h4 {
+#report .section-title {
     color: navy;
 }
 #report.report-top p{
