@@ -450,7 +450,89 @@ transition: .3s ease letter-spacing;
 
 /*--end demo section--*/
 
-/*--end demo section--*/
+/*--report section---*/
+
+#report {
+    background-image: url(./images/photo-1518655048521-f130df041f66.avif);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#report .report{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#report .section-title h4 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(3, 3, 57);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#report .section-title h4 {
+    color: navy;
+}
+#report.report-top p{
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+#report .report-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#report .report-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(./images/gradient-dark-dynamic-lines-background_23-2148995950.avif);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#report .report-item::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29393c 0%, #485563 100%);
+    opacity: .8;
+    z-index: -1;
+}
+#report .report-item h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+#report .report-item p{
+    color: white;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+/*report section end*/
 
 /*footer section*/
 #footer-section{
